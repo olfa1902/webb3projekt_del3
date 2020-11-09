@@ -10,6 +10,8 @@ if (!isset($_SESSION['adminusername'])) {
 
 <head>
     <link rel="stylesheet" type="text/css" href="../css/sass.css">
+    <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
     <title>Adminwebbplats - Projektuppgift DT173G</title>
     <h2>Adminwebbplats - Projektuppgift DT173G</h2>
 </head>
@@ -166,5 +168,7 @@ if (!isset($_SESSION['adminusername'])) {
 <script type="text/javascript" src="../js/scripts.js"></script>
 
 <form action="logout.php">
-    <input class="button" type="submit" value="Log Out" />
+    <input class="button" type="submit" value="Log Out" id="logoutbutton" />
 </form>
+
+<footer> <p>&copy;  2020 Oliver Farnskog - Mittuniversitetet</p> </footer>

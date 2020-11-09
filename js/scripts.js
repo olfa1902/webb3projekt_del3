@@ -84,9 +84,9 @@ function getadminStudies() {
             <br>
             <b>Utbildningsslut: </b> ${study.slutdatum}
             </p>
-            <button id="${study.id}" onClick="deleteStudy(${study.id})">Radera</button>
+            <button id="${study.id}" onClick="deleteStudy(${study.id})" class="adminbutton">Radera</button>
             <br>
-            <button id="${study.id}" onClick="alert(${study.id})">Uppdatera</button>
+            <button id="${study.id}" onClick="alert(${study.id})" class="adminbutton">Uppdatera</button>
             </div>`
             });
         })
@@ -112,9 +112,9 @@ function getadminExperiences() {
             <br>
             <b>Slutdatum: </b> ${experience.slutdatum}
             </p>
-            <button id="${experience.id}" onClick="deleteExperience(${experience.id})">Radera</button>
+            <button id="${experience.id}" onClick="deleteExperience(${experience.id})" class="adminbutton">Radera</button>
             <br>
-            <button id="${experience.id}" onClick="alert(${experience.id})">Uppdatera</button>
+            <button id="${experience.id}" onClick="alert(${experience.id})" class="adminbutton">Uppdatera</button>
             </div>`
             });
         })
@@ -138,9 +138,9 @@ function getadminWebsites() {
             <br>
             <b>Beskrivning: </b> ${website.beskrivning}
             </p>
-            <button id="${website.id}" onClick="deleteWebsite(${website.id})">Radera</button>
+            <button id="${website.id}" onClick="deleteWebsite(${website.id})" class="adminbutton">Radera</button>
             <br>
-            <button id="${website.id}" onClick="alert(${website.id})">Uppdatera</button>
+            <button id="${website.id}" onClick="alert(${website.id})" class="adminbutton">Uppdatera</button>
             </div>`
             });
         })

@@ -3,6 +3,8 @@
 <head>
 <title>Loginsida - Projektuppgift DT173G </title>
 <link rel="stylesheet" type="text/css" href="../css/sass.css">
+<link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
 </head>
 
 <!-- A session system is created where the credentials to log in and the redirection is created and assigned -->
@@ -39,3 +41,5 @@ session_start();
     <input class="button" type="submit" value="Log in">
 
 </form>
+
+<footer> <p>&copy;  2020 Oliver Farnskog - Mittuniversitetet</p> </footer>
