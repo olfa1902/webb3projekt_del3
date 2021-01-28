@@ -1,29 +1,101 @@
 body {
-  background-color: #5C1F00; }
-  @media screen and (max-width: 500px) {
+  background-color: #5C1F00;
+  overflow-x: hidden;
+  overflow-y: scroll; }
+  @media screen and (max-width: 700px) {
     body {
-      display: block;
-      font-size: 21px; } }
+      font-size: 15px;
+      max-width: 100%;
+      overflow-x: hidden;
+      overflow-y: scroll; }
+      body h1 {
+        font-size: 25px; }
+      body li {
+        font-size: 30px;
+        margin-bottom: 20px; } }
 
-h1, h2, h5 label, form {
-  color: #A9D6E4; }
+h1, h2 {
+  font-family: 'Corben', Georgia, Times, serif;
+  color: #00FF00;
+  text-shadow: 7px 7px #000; }
 
-.button {
-  background-color: #A9D6E4;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+li {
+  float: left;
+  display: block;
+  color: #A9D6E4;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: 5px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 50px;
+  font-size: 30px; }
+
+li a:hover {
+  background-color: #111; }
+
+footer {
+  margin-top: 1%;
+  width: 98%;
+  padding: 1%;
+  background-color: #ccc;
+  color: #000;
+  text-align: center;
+  font-size: 30px; }
+
+#logoutbutton {
+  margin-top: 3%; }
+
+.adminbutton {
+  background-color: #5C1F00;
+  color: #00FF00;
   padding: 12px 20px;
-  margin-bottom: 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer; }
-  @media screen and (max-width: 500px) {
+
+p, div {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+  max-width: 100%; }
+
+label {
+  color: #A9D6E4; }
+
+.button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+  @media screen and (max-width: 700px) {
     .button {
-      display: block;
-      font-size: 21px; } }
+      font-size: 15px;
+      max-width: 100%;
+      overflow-x: hidden;
+      overflow-y: scroll; }
+      .button h1 {
+        font-size: 25px; }
+      .button li {
+        font-size: 30px;
+        margin-bottom: 20px; } }
 
 .study, .experience, .website {
   border: 2px outset;
   border-radius: 6px;
   background-color: #A9D6E4;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  max-width: 100%;
+  white-space: pre-wrap;
+  /* CSS3 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */ }
 
 /*# sourceMappingURL=sass.css.map */

@@ -17,6 +17,12 @@ if (!isset($_SESSION['adminusername'])) {
 </head>
 
 <body>
+    <nav >
+        <ul>
+            <li onclick="window.location.href = 'http://studenter.miun.se/~olfa1902/Webbutveckling_III/Projektuppgift/Admin/php/logout.php'">Hem</li>
+            <li onclick="window.location.href = 'http://studenter.miun.se/~olfa1902/Webbutveckling_III/Projektuppgift/Admin/php/admin.php';"> Adminsidan </li>
+        </ul>
+    </nav>
     <!-- div for storing the list of posts in one of the tables -->
     <h1> Utbildning</h1>
     <div id="adminstudier"></div>
