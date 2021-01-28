@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <head>
 <title>Loginsida - Projektuppgift DT173G </title>
-<link rel="stylesheet" type="text/css" href="../css/sass.css">
+<link rel="stylesheet" type="text/css" href="http://studenter.miun.se/~olfa1902/Webbutveckling_III/Projektuppgift/Webbplats/pub/sass/sass.css">
 <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
 </head>

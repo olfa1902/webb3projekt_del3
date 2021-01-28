@@ -134,7 +134,7 @@ function getadminWebsites() {
             <p>
             <b>Titel: </b> ${website.titel}
             <br>
-            <b>Lank: </b> ${website.url}
+            <b>Lank: </b> <a href="${website.url}">${website.url}</a>
             <br>
             <b>Beskrivning: </b> ${website.beskrivning}
             </p>

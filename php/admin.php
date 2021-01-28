@@ -9,7 +9,7 @@ if (!isset($_SESSION['adminusername'])) {
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="../css/sass.css">
+    <link rel="stylesheet" type="text/css" href="http://studenter.miun.se/~olfa1902/Webbutveckling_III/Projektuppgift/Webbplats/pub/sass/sass.css">
     <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
     <title>Adminwebbplats - Projektuppgift DT173G</title>
@@ -19,8 +19,9 @@ if (!isset($_SESSION['adminusername'])) {
 <body>
     <nav >
         <ul>
-            <li onclick="window.location.href = 'http://studenter.miun.se/~olfa1902/Webbutveckling_III/Projektuppgift/Admin/php/logout.php'">Hem</li>
-            <li onclick="window.location.href = 'http://studenter.miun.se/~olfa1902/Webbutveckling_III/Projektuppgift/Admin/php/admin.php';"> Adminsidan </li>
+            <li onclick="window.location.href = 'http://studenter.miun.se/~olfa1902/Webbutveckling_III/Projektuppgift/Webbplats/pub/'">Hem</li>
+            <li onclick="window.location.href = 'http://studenter.miun.se/~olfa1902/Webbutveckling_III/Projektuppgift/Admin/php/admin.php'"> Adminsidan </li>
+            <li onclick="window.location.href = 'http://studenter.miun.se/~olfa1902/Webbutveckling_III/Projektuppgift/Admin/php/logout.php'">Logga ut</li>
         </ul>
     </nav>
     <!-- div for storing the list of posts in one of the tables -->
@@ -172,9 +173,5 @@ if (!isset($_SESSION['adminusername'])) {
 
 </body>
 <script type="text/javascript" src="../js/scripts.js"></script>
-
-<form action="logout.php">
-    <input class="button" type="submit" value="Log Out" id="logoutbutton" />
-</form>
 
 <footer> <p>&copy;  2020 Oliver Farnskog - Mittuniversitetet</p> </footer>
